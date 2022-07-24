@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana Ferreira / Portfolio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"> -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;700&family=Playfair+Display:wght@400&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="body">
+    <header class="page-header">
+        <!-- <a href="index.html"> <img src="img/logo.png" alt="logo" class="page-header__item"></a> -->
+        <nav class="page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="#profile" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="#portfolio" role="menuitem" class="navigation-list__item">Projects</a>
+                </li>
+                <li role="presentation">
+                    <a href="#contact" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- main section -->
+    <div class="profile_container">
+        <section id="profile">
+
+            <img class="profile_image" src="./images/mariana-ferreira.jpeg">
+            <div class="intro_text">
+                <h1 class="welcome_title">W E L C O M E</h1>
+                I'm Mariana. I'm a Javascript developer with a background in Marketing and
+                Events. My latest role included managing projects across teams with a focus on increased
+                efficiency and great results. I'm transitioning into software development because I like to be
+                hands-on in my work and enjoy finding new solutions to problems.
+                <p><button class="portfolio_button"><a href="#portfolio">Check out my latest projects</a></button></p>
+                
+            </div>
+
+
+        </section>
+    </div>
+
+
+    <!-- portfolio section -->
+
+    <section id="portfolio">
+        <div>
+            <h1 class="projects_title">P R O J E C T S </h1>
+            <div class="grid">
+
+                <!-- Project #1 -->
+                <div class="grid__item">
+                    <h2 class="project_individual_title">Flicking through Flicks (React)</h2>
+                    <p class="project_description">
+                        Flicking through Flicks is an application created using the MERN stack. This web app provides
+                        users information about movies, directors, and genres. Users can sign up, update personal data,
+                        and create a list of favorites.
+                    </p>
+                    <div class="project_images_container">
+                        <img class="project_image" src="./images/flicks-react-main.png">
+                        <img class="project_image" src="./images/flicks-react-movie.png">
+                    </div>
+                    <p class="project_technologies">
+                        <b>Technologies Used</b>
+                        <br>Nodejs, React, React-DOM, Parcel, Axios, Redux, Bootstrap (Client-Side)
+                        <br>Express, Mongoose, BCrypt (Server-Side)
+                    </p>
+                    <span class="project_links"><a href="https://flickingthroughflicks.netlify.app/">Live</a> | <a
+                            href="https://github.com/mareeanamaro/myFlix-client">GitHub</a> | <a
+                            href="https://github.com/mareeanamaro/movieAPI">API</a></span>
+                </div>
+
+                <!-- Project #2 -->
+                <div class="grid__item">
+                    <h2 class="project_individual_title">Flicking through Flicks (Angular)</h2>
+                    <p class="project_description">
+                        Flicking through Flicks is a client-side application, created with Angular based on the existing
+                        server-side code (REST API and mongo database) from a previous task. The goal was to rebuild the
+                        app previously created using React now using Angular.
+                    </p>
+                    <div class="project_images_container">
+                        <img class="project_image" src="./images/flicks-angular-main1.png">
+                        <img class="project_image" src="./images/flicks-angular-director.png">
+                    </div>
+                    <p class="project_technologies">
+                        <b>Technologies Used</b>
+                        <br>Angular, Angular Material (Client-Side)
+                    </p>
+                    <span class="project_links"><a href="http://my-flix-angular-client.vercel.app/">Live</a> | <a
+                            href="https://github.com/mareeanamaro/myFlix-Angular-client">GitHub</a></span>
+                </div>
+
+
+                <!-- Project #3 -->
+                <div class="grid__item">
+                    <h2 class="project_individual_title">Meet</h2>
+                    <p class="project_description">
+                        A server-less PWA app built using a TDD approach. User can see a list of all Career Foundry Web
+                        Dev events, filter the events by city, show or hide an event's details, specify how many events
+                        they want to see, use the app when offline and can see charts displaying the data.
+                    </p>
+                    <div class="project_images_container">
+                        <img class="project_image" src="./images/meet-tokyo.png">
+                        <img class="project_image" src="./images/meet-main.png">
+                    </div>
+                    <p class="project_technologies">
+                        <b>Technologies Used:</b>
+                        <br> React, Create-React-App, Google OAuth2, AWS Lambda, Serverless Toolkit
+                    </p>
+                    <span class="project_links"><a href="https://mareeanamaro.github.io/meet/">Live</a> | <a
+                            href="https://github.com/mareeanamaro/meet">GitHub</a></span>
+
+                </div>
+                <!-- Project #4 -->
+                <div class="grid__item">
+                    <h2 class="project_individual_title">Pokédex App</h2>
+                    <p class="project_description">
+                        The Pokédex is a small web
+                        application with HTML, CSS, and JavaScript that loads data from an external API and enables the
+                        viewing of data points in detail.
+                    </p>
+                    <div class="project_images_container">
+                        <img class="project_image" src="./images/pokedex-main.png">
+                        <img class="project_image" src="./images/pokedex-detail.png">
+                    </div>
+                    <p class="project_technologies">
+                        <b>Technologies Used:</b>
+                        <br> Javascript ES6, ESLint rules, jQuery, Bootstrap
+                    </p>
+                    <span class="project_links"><a href="https://mareeanamaro.github.io/pokedex-cf/">Live</a> | <a
+                            href="https://github.com/mareeanamaro/pokedex-cf">GitHub</a></span>
+                </div>
+                <!-- Project #5 -->
+                <div class="grid__item">
+                    <h2 class="project_individual_title">Chatterbox</h2>
+                    <p class="project_description">
+                        A mobile chat app built using React Native and Expo. Users are able to log into a new chatroom, choose name and background color, send messages, send images, share their location and read their messages in offline mode.
+                    </p>
+                    <div class="project_images_container">
+                        <img class="project_image" src="./images/chatterbox-start-screen.png">
+                        <img class="project_image" src="./images/chatterbox-chat-screen.png">
+                    </div>
+                    <p class="project_technologies">
+                        <b>Technologies Used</b>
+                        <br>React-Native, Expo, GiftedChat, NetInfo, Firebase/Firestore
+                    </p>
+                    <span class="project_links"><a href="http://my-flix-angular-client.vercel.app/">Live</a> | <a
+                            href="https://github.com/mareeanamaro/chat-app">GitHub</a>
+                </div>
+            </div>
+            </main>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="contact_title">C O N T A C T</h1>
+        <form name="contact" method="POST" data-netlify="true" class="contact_form">
+            
+            Mariana Ferreira
+            <br>London, UK
+            <br><b>mariana.amaro.ferreira@gmail.com</b>
+   
+            <p>
+              <label><br><input type="text" name="name" placeholder="Your Name"/></label>
+              <label><br><input type="email" name="email" placeholder="Your Email"/></label>
+              <label><br><textarea name="message" placeholder="Your Message"></textarea></label>
+            </p>
+            <p>
+                <button class="contact-button" type="submit">Send</button>
+              </p>
+
+            
+          </form>
+    </section>
+
+    <footer class="page-footer">
+        <div class="social-media">
+          <a href="mailto:mariana.amaro.ferreira@gmail.com"><img src="images/mail.png" alt="Email"></a>
+          <a href="https://github.com/mareeanamaro"><img src="images/github_icon.svg" alt="Github"></a>
+          <a href="https://twitter.com/mareeanaf"><img src="images/twitter_icon.svg" alt="Twitter"></a>
+          <a href="https://www.linkedin.com/in/marianaamaroferreira/"><img src="images/3463471_linkedin_media_network_social_icon.svg" alt="LinkedIn"></a>
+        </div>
+      </footer>
+
+
+      
+</body>
+
+</html>
