@@ -141,7 +141,8 @@ textarea {
     }
 
     .profile_image {
-        width: 75%;
+        width: 50%;
+        margin-top: 4rem;
         margin-bottom: 15%
     }
 
@@ -228,6 +229,15 @@ textarea {
     text-align: center;
 }
 
+
+@media (max-width: 800px) {
+    #contact {
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+    }
+
+}
 
 /* grid fallback */
 .grid__item {
