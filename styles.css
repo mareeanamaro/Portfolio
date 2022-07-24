@@ -15,19 +15,19 @@ body {
 }
 
 a {
-    color: #dec0c8;
+    color: #c4426f;
 }
 
 a:hover {
     /* no underlining when hovering over a link */
     text-decoration: none;
-
+    color: #c4426f;
 }
 
 a:focus {
     /* no underlining when hovering over a link */
     text-decoration: none;
-
+    color: #c4426f;
 }
 
 input,
