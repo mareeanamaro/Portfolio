@@ -149,6 +149,14 @@ textarea {
     .intro_text {
         width: 80%;
     }
+
+    .page-header {
+        justify-content: center;
+    }
+
+    .intro_text {
+        text-align: center;
+    }
 }
 
 #portfolio {
