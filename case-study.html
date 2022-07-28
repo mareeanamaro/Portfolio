@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana Ferreira / Case Study</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;700&family=Playfair+Display:wght@400&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="page-header">
+        <!-- <a href="index.html"> <img src="img/logo.png" alt="logo" class="page-header__item"></a> -->
+        <nav class="page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="#profile" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="#portfolio" role="menuitem" class="navigation-list__item">Projects</a>
+                </li>
+                <li role="presentation">
+                    <a href="#contact" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <div class="grid_case">
+            <div class="grid__item">
+                <h1 class="case_title">CASE STUDY - FLICKING THROUGH FLICKS (REACT)</h2>
+                <div class="line-1"></div>
+                <div class="grid_case_intro space">
+                    <div class="case_intro">
+                        <p><b>WHAT?</b></p>
+                        <p>Flicking through Flicks is a web app created using the MERN stack. It
+                            provides information about movies, directors, and genres. The goal was to create a web app
+                            about movies that will allow users to discover
+                            information about these particular movies and curate a list of their favourites. </p>
+
+                        <p><b>WHY?</b>
+
+                        <p>This project came about as part of my Full Stack Web Development
+                            Course with Career Foundry. I wanted to build a full-stack app, from the database and API to
+                            the client side, to get an understanding of how all the parts connect and work together.</p>
+                        </p>
+                        <p>
+
+                        <p><b>HOW?</b> </p>
+                        <p>I worked on this project in the evenings and on weekends, over the span of
+                            three months. I used Express, Mongoose, BCrypt (Server-Side) and Nodejs, React, React-DOM,
+                            Parcel, Axios, Redux, Bootstrap (Client-Side).
+
+                        <p><b>WHO?</b>
+                        <p>I was the lead developer on the project and would like to thank Martin
+                            Macharia and Ivan Bila, whose help was invaluable.</p>
+                        </p>
+
+                        <p><b>WHERE?</b>
+                            </p>
+                            <span class="project_links"><a href="https://flickingthroughflicks.netlify.app/">Live App</a> | <a
+                                href="https://github.com/mareeanamaro/myFlix-client">Client-Side Code</a> | <a
+                                href="https://github.com/mareeanamaro/movieAPI">API</a></span>
+    
+
+                    </div>
+                    <img class="case_intro_image" src="./images/flicks-react-main.png">
+                </div>
+                <div class="line-1 margin"></div>
+                <h2 class="case_title">The Process</h2>
+                <div class="grid_case_steps">
+                    <img class="case_intro_image space" src="./images/postman_screenshot.jpg">
+                    <div class="steps_container"><b>STEP 1 - BUILD THE API & BUSINESS LOGIC LAYER</b></span>
+                    <p class="case_intro">I designed what the app would do, and the operations the API would support. I created a RESTful API using Node.js and Express. The business logic layer was written with with Mongoose. I used BCrypt for password encryption and Passport for authentication. For the testing I used Postman. </p>
+                    <p class="case_intro"><b>STEP 2 - BUILD THE DATABASE</b></p>
+                    <p class="case_intro">I built a non-relational database of movies and users using MongoDB. I used a non-relational database because it is more flexible and the app is simple enough to accommodate this type of database.</p>
+                </div>
+                <div></div>
+                <div class="space"></div>
+                <div class="steps_container"><b>STEP 3 - BUILD THE CLIENT-SIDE IN REACT</b>
+
+                    <p> I built the client-side using React and React-Redux. The app client-side include Login and
+                        Registration views for unauthorized users, a Main view which shows all movies, Movie-specific
+                        views and a Profile view, which allows the users to edit their details and list of favorite
+                        movies. </p>
+
+                    <p> This was my first time working with React and React-Redux and I felt the steep learning curve,
+                        but it was ultimately very rewarding to get it all done and working. I learned a lot about how
+                        current development trends are so reliant on packages and that you may have to downgrade the
+                        tools you are using to get everything working in tandem.</p>
+
+                    <p> This build and the calls I had with my mentor Martin to help me when I was stuck really
+                        developed my debugging skills and my understanding of single page applications and user
+                        interfaces.</p>
+                    </div>
+                    <img class="case_image_left space_left" src="./images/flicks-react-movie-carol.jpg">
+                </div>
+                <div class="case_intro space">
+                    Ultimately I was able to complete my objective. This project really taught me how important collaboration is when it comes to big projects and that often it is better to stop and take a moment to re-learn concepts so your end product can be as solid as possible. I look forward to building more projects in the MERN stack and honing my skills.
+                </div>
+
+               
+            </div>
+        </div>
+
+</body>
+
+</html>
