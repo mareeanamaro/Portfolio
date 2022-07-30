@@ -128,7 +128,7 @@ textarea {
 .portfolio_button a {
     text-decoration: none;
     font-size: 1.1rem;
-    color: #dec0c8;
+    color: #c4426f;
   
 }
 
@@ -324,7 +324,6 @@ textarea {
 .page-footer {
     /* clear of all floats */
     clear: both;
-
     background-color: #dec0c8;
 
     /* make it a flexbox container */
