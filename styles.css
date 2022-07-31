@@ -1,59 +1,58 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 3rem;
+  scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
 }
 
 body {
-    color: #2b2b2b;
-    background-color: #d3f0e6;
-    margin: -2px;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+  color: #2b2b2b;
+  background-color: #d3f0e6;
+  margin: -2px;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 a {
-    color: #c4426f;
+  color: #c4426f;
 }
 
 a:hover {
-    /* no underlining when hovering over a link */
-    text-decoration: none;
-    color: #c4426f;
+  /* no underlining when hovering over a link */
+  text-decoration: none;
+  color: #c4426f;
 }
 
 a:focus {
-    /* no underlining when hovering over a link */
-    text-decoration: none;
-    color: #c4426f;
+  /* no underlining when hovering over a link */
+  text-decoration: none;
+  color: #c4426f;
 }
 
 input,
 textarea {
-    width: 50%;
-    font-family: inherit;
-    padding: 0.5rem;
-    margin: 0.5rem
+  width: 50%;
+  font-family: inherit;
+  padding: 0.5rem;
+  margin: 0.5rem;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
-
 .page-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    width: 100vw;
-    padding-right: 3rem;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background-color: #d3f0e6;
-    height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100vw;
+  padding-right: 3rem;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: #d3f0e6;
+  height: 3rem;
 }
 
 /* .page-header__item {
@@ -66,336 +65,331 @@ textarea {
 } */
 
 .navigation-list li {
-    display: inline-block;
-    margin-left: 15px;
-    text-transform: uppercase;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 300;
-    font-size: 1.1rem;
+  display: inline-block;
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
 
 .navigation-list__item--active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .profile_container {
-    width: 100vw;
-    background-color: #d3f0e6;
+  width: 100vw;
+  background-color: #d3f0e6;
 }
 
 #profile {
-    width: 100vh;
-    height: 100vh;
-    margin: 0 auto;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #d3f0e6;
+  width: 100vh;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #d3f0e6;
 }
 
 .profile_image {
-    text-align: justify;
-    align-self: center;
-    width: 25%;
-    border-radius: 50%;
-    margin-right: 10%;
+  text-align: justify;
+  align-self: center;
+  width: 25%;
+  border-radius: 50%;
+  margin-right: 10%;
 }
 
 .welcome_title {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 700;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
 }
 
 .intro_text {
-    text-align: justify;
-    align-self: center;
-    font-size: 1.2rem;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 300;
+  text-align: justify;
+  align-self: center;
+  font-size: 1.2rem;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 300;
 }
 
 .portfolio_button {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: white;
-    color:#dec0c8;
-    padding: 1rem;
-    border: none;
-    border-radius: 1%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: white;
+  color: #dec0c8;
+  padding: 1rem;
+  border: none;
+  border-radius: 1%;
 }
 
 .portfolio_button a {
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: #c4426f;
-  
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #c4426f;
 }
 
 .social_media {
-    padding-top: 5%;
-    text-align: center;
+  padding-top: 5%;
+  text-align: center;
 }
 
 @media (max-width: 800px) {
-    #profile {
-        flex-direction: column;
-        width: 100vw;
-        justify-content: center;
-    }
+  #profile {
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+  }
 
-    .profile_image {
-        width: 50%;
-        margin-top: 4rem;
-        margin-bottom: 15%
-    }
+  .profile_image {
+    width: 50%;
+    margin-top: 4rem;
+    margin-bottom: 15%;
+  }
 
-    .intro_text {
-        width: 80%;
-    }
+  .intro_text {
+    width: 80%;
+  }
 
-    .page-header {
-        justify-content: center;
-    }
+  .page-header {
+    justify-content: center;
+  }
 
-    .intro_text {
-        text-align: center;
-    }
+  .intro_text {
+    text-align: center;
+  }
 }
 
 #portfolio {
-    background-color: #dec0c8;
-    width: 100vw;
+  background-color: #dec0c8;
+  width: 100vw;
 }
 
 .projects_title {
-    text-align: center;
-    padding: 1.5vw;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 700;
+  text-align: center;
+  padding: 1.5vw;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
 }
 
 .project_individual_title {
-    text-align: center;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+  text-align: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .project_images_container {
-    display: subgrid;
-    place-content: center;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+  display: subgrid;
+  place-content: center;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 
 .project_image {
-    width: 45%;
-    margin: 1%
+  width: 45%;
+  margin: 1%;
 }
 
 .project_description {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 300;
-    font-size: 1.1rem;
-    width: 92%;
-    padding: 3%
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  width: 92%;
+  padding: 3%;
 }
 
 .project_technologies {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 300;
-    font-size: 1.1rem;
-    padding-top: 2%
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding-top: 2%;
 }
 
 .project_links {
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 300;
-    font-size: 1.1rem;
-    padding-bottom: 2%
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding-bottom: 2%;
 }
 
 #contact {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100vh;
-    margin: 0 auto
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100vh;
+  margin: 0 auto;
 }
 
 .contact_title {
-    text-align: center;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    padding-top: 3rem ;
-    font-weight: 700;
+  text-align: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  padding-top: 3rem;
+  font-weight: 700;
 }
 
 .contact-button {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
 }
 
-
 @media (max-width: 800px) {
-    #contact {
-        flex-direction: column;
-        width: 100vw;
-        justify-content: center;
-    }
-
+  #contact {
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+  }
 }
 
 /* grid fallback */
 .grid__item {
-    display: inline-block;
-    width: 50%;
-    padding: 10px;
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
 }
 
-@supports (display:grid) {
-    .grid {
-        display: grid;
-        place-content: center;
-        justify-items: center;
-        padding: 1vw 4vw;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10vw;
-    }
+@supports (display: grid) {
+  .grid {
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    padding: 1vw 4vw;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10vw;
+  }
 
-    .grid_case {
-        display: grid;
-        place-content: center;
-        justify-items: center;
-        padding: 1vw 4vw;
-        grid-template-columns: 1fr;
-    }
+  .grid_case {
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    padding: 1vw 4vw;
+    grid-template-columns: 1fr;
+  }
 
-    .grid_case_intro {
-        display: inline-grid;
-        place-content: center;
-        justify-items: center;
-        grid-template-columns: 1fr 1fr;
-    }
+  .grid_case_intro {
+    display: inline-grid;
+    place-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
 
-    .grid__item {
-        /* display: inline-grid; */
-        text-align: center;
-        background-color: white;
-        box-shadow: 2px 2px 10px -3px rgba(52, 58, 64, 0.99);
-        width: auto;
-        min-height: auto;
-        margin: 0;
-    }
-
+  .grid__item {
+    /* display: inline-grid; */
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 10px -3px rgba(52, 58, 64, 0.99);
+    width: auto;
+    min-height: auto;
+    margin: 0;
+  }
 }
 
 @media all and (max-width: 600px) {
-    .grid {
-        -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    }
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media all and (min-width: 600px) and (max-width: 750px) {
-    .grid {
-        -ms-grid-columns: 1fr 1vw 1fr;
-        grid-template-columns: 1fr 1fr;
-    }
+  .grid {
+    -ms-grid-columns: 1fr 1vw 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media all and (min-width: 750px) {
-    .grid {
-        grid-gap: 1.2vw;
-    }
+  .grid {
+    grid-gap: 1.2vw;
+  }
 
-    .grid__item:last-child {
-        grid-column: 2 / 2;
-        grid-row: 1 / 3;
-
-    }
+  .grid__item:last-child {
+    grid-column: 2 / 2;
+    grid-row: 1 / 3;
+  }
 }
 
 .page-footer {
-    /* clear of all floats */
-    clear: both;
-    background-color: #dec0c8;
+  /* clear of all floats */
+  clear: both;
+  background-color: #dec0c8;
 
-    /* make it a flexbox container */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
+  /* make it a flexbox container */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
 }
 
 .case_intro {
-    padding: 0 5vw 0 0vw;
-    text-align: justify;  
-    align-self: center;
+  padding: 0 5vw 0 0vw;
+  text-align: justify;
+  align-self: center;
 }
 
 .case_intro_image {
-    width: 100%;
-    margin-right: 5vw;
+  width: 100%;
+  margin-right: 5vw;
 }
 
 .case_image_left {
-    width: 100%;
+  width: 100%;
 }
 
 .grid_case_steps {
-    display: inline-grid;
-    grid-template-columns: 1fr 1fr;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .case_title {
-    text-align: center;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 1vw;
+  text-align: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1vw;
 }
 
 .line-1 {
-    height: 2px;
-    width: 95%;
-    background: #d3f0e6;
-    margin: 0 2vw 2vw 2vw;
-  }
+  height: 2px;
+  width: 95%;
+  background: #d3f0e6;
+  margin: 0 2vw 2vw 2vw;
+}
 
-  .steps_container {
-    text-align: justify;
-    padding: 2vw;
-    align-items: center;
-  }
+.steps_container {
+  text-align: justify;
+  padding: 2vw;
+  align-items: center;
+}
 
-  .case_server_image {
-    width: 100%;
-    padding: 1vw; 
+.case_server_image {
+  width: 100%;
+  padding: 1vw;
 }
 
 .space {
-    padding: 2vw;
+  padding: 2vw;
 }
 
 .margin {
-    margin: 2vw
+  margin: 2vw;
 }
 
 .indent {
-    padding-left: 2vw;
+  padding-left: 2vw;
 }
 
 .space_left {
-    padding: 0vw -2vw 2vw 2vw
+  padding: 0vw -2vw 2vw 2vw;
 }
